@@ -1,36 +1,45 @@
 /* Global settings */
 * {
     box-sizing: border-box;
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
-
 button {
     
 }
 
-/* "body" settings */
+/* BODY settings */
 body {
     background-color: black;
 }
 
-/* "header" settings */
+/* HEADER settings */
 header {
     background-color: rgb(25, 25, 25);
-    size: 100% 20%;
     color: white;
+    height: 80px;
+    padding: 10px;
     font-size: 45px;
-    padding: 0.8%;
-    align-items: middle;
+    align-items: center;
+}
+img {
+    vertical-align: middle;
+}
+span {
+    vertical-align: middle;
 }
 
 
-/* "main" settings */
-
+/* MAIN settings */
+section {
+    background-color: rgb(25, 25, 25);
+    align-self: center;
+    size: 60% auto;
+    margin: 10px;
+}
 #Add_Task {
 
 }
-
 #Add_Section {
 
 }
