@@ -66,7 +66,28 @@ section>span {
 }
 
 /* Tobool Lists */
-div>p {
+.toboolists{
+    margin: 30px auto;
+}
+.toboolists>p {
     color: rgb(150, 150, 150);
     font-weight: 1000;
+    font-size: 25px;
+    line-height: 40px;
+}
+.toboolists>ul {
+    list-style-type: none;
+}
+ul>li {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+}
+.crossed_list::before{
+    content: "✗";
+    color: red;
+}
+.checked_list::before{
+    content: "✓";
+    color: green;
 }
