@@ -1,6 +1,12 @@
 /* Global settings */
 * {
     box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+button {
+    
 }
 
 /* "body" settings */
@@ -8,9 +14,23 @@ body {
     background-color: black;
 }
 
-/* "main" settings */
+/* "header" settings */
 header {
     background-color: rgb(25, 25, 25);
     size: 100% 20%;
-    color: white
+    color: white;
+    font-size: 45px;
+    padding: 0.8%;
+    align-items: middle;
+}
+
+
+/* "main" settings */
+
+#Add_Task {
+
+}
+
+#Add_Section {
+
 }
