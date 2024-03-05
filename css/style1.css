@@ -91,3 +91,27 @@ ul>li {
     content: "✓";
     color: green;
 }
+/* Tags settings */
+li>span {
+    font-size: 13px;
+    color: black;
+    border-radius: 6px;
+}
+.tag_editorial {
+    background-color: aqua;
+}
+.tag_q1 {
+    background-color: purple;
+}
+.tag_recruiting{
+    background-color: teal;
+}
+.tag_mobile{
+    background-color: orangered;
+}
+.tag_website{
+    background-color: magenta;
+}
+.tag_sales{
+    background-color: lime;
+}
