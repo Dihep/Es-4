@@ -10,17 +10,16 @@ button {
 
 /* BODY settings */
 body {
-    background-color: black;
+    background-color: rgb(25, 25, 25);
 }
 
 /* HEADER settings */
 header {
-    background-color: rgb(25, 25, 25);
+    background-color: black;
     color: white;
     height: 80px;
     padding: 10px;
     font-size: 45px;
-    align-items: center;
 }
 img {
     vertical-align: middle;
@@ -31,15 +30,43 @@ span {
 
 
 /* MAIN settings */
+
+.main_container {
+    padding: 10% 20%;
+}
+
 section {
-    background-color: rgb(25, 25, 25);
-    align-self: center;
-    size: 60% auto;
-    margin: 10px;
+    display: block;
+    background-color: black;
+    margin: 2px;
+    padding: 10px 5%;
+    border-radius: 3px;
+}
+
+/* Control panel */
+section>span {
+    display: inline-block;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 3px;
 }
 #Add_Task {
-
+    display: inline-block;
+    background-color: rgb(0, 100, 255);
+    color: white;
+    margin-right: 10px;
+    padding: 3px 20px;
 }
 #Add_Section {
+    display: inline-block;
+    background-color: black;
+    color: rgb(25, 25, 25);
+    border: 1px solid rgb(25, 25, 25);
+    padding: 3px 10px;
+}
 
+/* Tobool Lists */
+div>p {
+    color: rgb(150, 150, 150);
+    font-weight: 1000;
 }
