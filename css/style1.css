@@ -1,0 +1,16 @@
+/* Global settings */
+* {
+    box-sizing: border-box;
+}
+
+/* "body" settings */
+body {
+    background-color: black;
+}
+
+/* "main" settings */
+header {
+    background-color: rgb(25, 25, 25);
+    size: 100% 20%;
+    color: white
+}
